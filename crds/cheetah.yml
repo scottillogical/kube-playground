@@ -1,0 +1,11 @@
+apiVersion: alpha.zipcar.com/v1
+kind: Cheetah
+metadata:
+  name: "hello"
+  namespace: "default"
+spec:
+  name: hello
+  memory_mb: 600
+  disk_mb: 1000
+  instances: 1
+  version: v0-85-0
